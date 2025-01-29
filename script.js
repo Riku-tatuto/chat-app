@@ -1,12 +1,12 @@
 // Firebaseの設定
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    apiKey: "AIzaSyC5lk2jg9dc7snS9d9PRowKw6ubmcySeZw",
+    authDomain: "webchat-app-system.firebaseapp.com",
     databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    projectId: "webchat-app-system",
+    storageBucket: "webchat-app-system.firebasestorage.app",
+    messagingSenderId: "300765893131",
+    appId: "1:300765893131:web:5f7a858ec0f8a5f14e2d0e"
 };
 
 // Firebase 初期化
