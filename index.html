@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebaseログイン</title>
+    <title>Firebaseチャット</title>
 </head>
 <body>
     <h2>ログイン</h2>
@@ -11,16 +11,18 @@
     <input type="password" id="password" placeholder="パスワード">
     <button onclick="signUpWithEmail()">新規登録</button>
     <button onclick="loginWithEmail()">ログイン</button>
-
-    <h2>ソーシャルログイン</h2>
     <button onclick="loginWithGoogle()">Googleでログイン</button>
-
-    <h2>ログアウト</h2>
     <button onclick="logout()">ログアウト</button>
+
+    <h2>チャット</h2>
+    <div id="chat-box"></div>
+    <input type="text" id="message" placeholder="メッセージを入力">
+    <button onclick="sendMessage()">送信</button>
 
     <!-- Firebaseのスクリプト読み込み -->
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
